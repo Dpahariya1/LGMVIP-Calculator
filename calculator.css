@@ -1,0 +1,51 @@
+body{
+
+    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+}
+.container{
+    
+    margin:15;
+    
+}
+.box{
+   
+    width: 60%;
+    height: 40vh;
+}
+input{
+    width:100%;
+    font-size: 10vh;
+    height: 19vh;
+    font-weight: bold;
+    margin-left:-6px;
+    font-family:'Times New Roman', 'Arial Narrow', Arial, sans-serif;
+    border:black;
+    background-color: greenyellow;
+}
+
+
+button{
+    width:100%;
+    margin: -2px;
+    font-size:8vh;
+    height:15vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border:black;
+    background-color: salmon;
+    transition: 0.1s;
+}
+#cut{
+    font-size: 7vh;
+    font-weight: bolder;
+
+}
+button:hover{
+    background-color: #4CAF50;
+    display: inline-block;
+    transition: 0.1s;
+    cursor: pointer;
+}
+table{
+    width:100%;
+    height: 70vh;
+}
